@@ -1,0 +1,6 @@
+name = "bun-honox-d1-prisma"
+pages_build_output_dir = "./dist"
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "blog"
+database_id = "XXXXX"
